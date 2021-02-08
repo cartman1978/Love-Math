@@ -16,6 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     })
   }
 
+// allow user to submit answer with enter tab
+  document.getElementById('answer-box').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        checkAnswer();
+      }
+  })
+
   runGame('addition');
 })
 

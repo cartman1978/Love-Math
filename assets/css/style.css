@@ -84,6 +84,18 @@ body {
     padding: 25px;
 }
 
+/* #animate {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+} */
+
+#myImg {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+
 /* --------- Buttons */
 
 .btn {

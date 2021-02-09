@@ -65,7 +65,9 @@ function checkAnswer() {
   let isCorrect = userAnswer === calculatedAnswer[0];
 
   if(isCorrect) {
-    alert('Hey! you got it right! 😄');
+    // alert('Hey! you got it right! 😄');
+    animation();
+    move();
     incrementScore();
   } else {
     alert(`Awwww .... you answered ${userAnswer}. the correct answer was ${calculatedAnswer[0]} 😟`);
@@ -76,6 +78,22 @@ function checkAnswer() {
  
 }
 
+function animation() {
+  imgAnim = document.getElementById('myImg');
+  imgAnim.style.position = 'relative';
+  imgAnim.style.left = '0px';
+  imgAnim.style.right = '70px';
+  // document.getElementById('myImg').style.left = '0px';
+
+}
+
+function move() {
+  imgAnim.style.left = parseInt(imgAnim.style.left) + 1 + 'px';
+  animate = setTimeout(move,100);
+  // document.getElementById('myImg').style.right = '70px';
+
+}
+window.onload = animation;
 function calculateCorrectAnswer() {
 
   // Gets the operands (the numbers) and the operator (plus. minus etc)

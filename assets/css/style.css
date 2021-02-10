@@ -89,16 +89,40 @@ body {
   height: 2rem;
   position: relative;
   opacity: 0;
+ 
 }
 
 #myImg.fade {
   opacity: 1;
-  transition: opacity 1s;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  
 }
+
+#myImg.fade-in {
+  animation-name: fadeIn; 				
+	animation-duration: 2s;        			
+	animation-iteration-count:initial; 
+}
+
+@keyframes fadeIn {
+
+  0% {opacity: 0;} 
+	100% {opacity: 1;} 
+}
+
 
 #message {
   position: relative;
   opacity: 0;
+}
+
+#message.fade-in {
+  animation-name: fadeIn; 				
+	animation-duration: 2s;        			
+	animation-iteration-count:initial; 
 }
 
 /* --------- Buttons */

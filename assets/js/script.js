@@ -66,8 +66,9 @@ function checkAnswer() {
 
   if(isCorrect) {
     // alert('Hey! you got it right! 😄');
+     
+     incrementScore();
      moveRight();
-    incrementScore();
     
   } else {
     alert(`Awwww .... you answered ${userAnswer}. the correct answer was ${calculatedAnswer[0]} 😟`);
@@ -78,26 +79,32 @@ function checkAnswer() {
  
 }
 
+
 function moveRight() {
   let theImg = document.getElementById('myImg');
   let msg = document.getElementById('message');
-  let pos = -200;
-  let op = 1;
-  let opOut = 0;
-  let duration = setInterval(frame, 5);
-     function frame() {
-       if (pos == 350) {
-         clearInterval(duration);
+  theImg.classList.toggle('fade-in');
+  msg.classList.toggle('fade-in');
+  
+
+  // let pos = -200;
+  // let op = 1;
+  
+  // let duration = setInterval(frame, 5);
+  //    function frame() {
+  //      if (pos == 350) {
+  //        clearInterval(duration);
        
-       } else {
-         pos++;
-        theImg.style.opacity = op;
-        msg.style.opacity = op;
-         theImg.style.left = pos + 'px';
-         theImg.style.right = pos + 'px';
+  //      } else {
+  //        pos++;
+  //       theImg.style.opacity = op;
+  //       msg.style.opacity = op;
+  //        theImg.style.left = pos + 'px';
+  //        theImg.style.right = pos + 'px';
          
-       }
-     }
+  //      }
+  //    }
+  
 }
 
 

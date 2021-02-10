@@ -79,6 +79,7 @@ function checkAnswer() {
 
 function moveRight() {
   let theImg = document.getElementById('myImg');
+  let msg = document.getElementById('message');
   let pos = -200;
   let op = 1;
   let opOut = 0;
@@ -90,6 +91,7 @@ function moveRight() {
        } else {
          pos++;
         theImg.style.opacity = op;
+        msg.style.opacity = op;
          theImg.style.left = pos + 'px';
          theImg.style.right = pos + 'px';
          

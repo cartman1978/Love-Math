@@ -96,6 +96,11 @@ body {
   transition: opacity 1s;
 }
 
+#message {
+  position: relative;
+  opacity: 0;
+}
+
 /* --------- Buttons */
 
 .btn {

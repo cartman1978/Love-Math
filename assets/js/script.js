@@ -93,6 +93,14 @@ function moveRight() {
   
 }
 
+function moveWrong() {
+  let secImg = document.getElementById('otherImg');
+  secImg.classList.remove('fade-in');
+  void secImg.offsetWidth; 
+  secImg.classList.toggle('fade-in');
+}
+
+
 
 function calculateCorrectAnswer() {
 

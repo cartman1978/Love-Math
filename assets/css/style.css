@@ -88,26 +88,20 @@ body {
   width: 2rem;
   height: 2rem;
   position: relative;
+  /* transition: opacity 2s linear; */
   opacity: 0;
  
 }
 
-#myImg.fade {
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  
-}
 
 #myImg.fade-in {
+ 
   animation-name: fadeIn; 				
 	animation-duration: 2s;        			
 	animation-iteration-count:initial; 
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn { 
 
   0% {opacity: 0;} 
 	100% {opacity: 1;} 

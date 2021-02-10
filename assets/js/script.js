@@ -83,7 +83,11 @@ function checkAnswer() {
 function moveRight() {
   let theImg = document.getElementById('myImg');
   let msg = document.getElementById('message');
+  theImg.classList.remove('fade-in');
+  void theImg.offsetWidth; 
   theImg.classList.toggle('fade-in');
+  msg.classList.remove('fade-in');
+  void msg.offsetWidth; 
   msg.classList.toggle('fade-in');
   
   

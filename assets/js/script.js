@@ -86,24 +86,6 @@ function moveRight() {
   theImg.classList.toggle('fade-in');
   msg.classList.toggle('fade-in');
   
-
-  // let pos = -200;
-  // let op = 1;
-  
-  // let duration = setInterval(frame, 5);
-  //    function frame() {
-  //      if (pos == 350) {
-  //        clearInterval(duration);
-       
-  //      } else {
-  //        pos++;
-  //       theImg.style.opacity = op;
-  //       msg.style.opacity = op;
-  //        theImg.style.left = pos + 'px';
-  //        theImg.style.right = pos + 'px';
-         
-  //      }
-  //    }
   
 }
 

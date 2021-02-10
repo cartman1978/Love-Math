@@ -66,8 +66,9 @@ function checkAnswer() {
 
   if(isCorrect) {
     // alert('Hey! you got it right! 😄');
-     moveRight()
+     moveRight();
     incrementScore();
+    
   } else {
     alert(`Awwww .... you answered ${userAnswer}. the correct answer was ${calculatedAnswer[0]} 😟`);
     incrementWrongAnswer();

@@ -80,16 +80,19 @@ function checkAnswer() {
 function moveRight() {
   let theImg = document.getElementById('myImg');
   let pos = -200;
+  let op = 1;
+  let opOut = 0;
   let duration = setInterval(frame, 5);
      function frame() {
        if (pos == 350) {
          clearInterval(duration);
-        
        
        } else {
          pos++;
+        theImg.style.opacity = op;
          theImg.style.left = pos + 'px';
          theImg.style.right = pos + 'px';
+         
        }
      }
 }

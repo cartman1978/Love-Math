@@ -100,6 +100,19 @@ body {
 	animation-iteration-count:initial; 
 }
 
+#otherImg {
+  width: 7rem;
+  height: 5rem;
+  position: relative;
+  opacity: 0;
+}
+
+#otherImg.fade-in {
+  animation-name: fadeIn; 				
+	animation-duration: 2s;        			
+	animation-iteration-count:initial; 
+}
+
 @keyframes fadeIn { 
 
   0% {opacity: 0;} 

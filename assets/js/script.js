@@ -71,8 +71,9 @@ function checkAnswer() {
      moveRight();
     
   } else {
-    alert(`Awwww .... you answered ${userAnswer}. the correct answer was ${calculatedAnswer[0]} 😟`);
+    // alert(`Awwww .... you answered ${userAnswer}. the correct answer was ${calculatedAnswer[0]} 😟`);
     incrementWrongAnswer();
+    moveWrong();
   }
 
   runGame(calculatedAnswer[1]);

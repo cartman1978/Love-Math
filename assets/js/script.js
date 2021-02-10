@@ -96,9 +96,13 @@ function moveRight() {
 
 function moveWrong() {
   let secImg = document.getElementById('otherImg');
+  let wrongMsg = document.getElementById('wrongmsg');
   secImg.classList.remove('fade-in');
   void secImg.offsetWidth; 
   secImg.classList.toggle('fade-in');
+  wrongMsg.classList.remove('fade-in');
+  void wrongMsg.offsetWidth; 
+  wrongMsg.classList.toggle('fade-in');
 }
 
 

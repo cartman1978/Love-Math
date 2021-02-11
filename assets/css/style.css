@@ -1,7 +1,7 @@
 /* --------- Global style */
 
 body {
-    background-color: white;
+    background-color: rgb(212, 184, 231);
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
@@ -57,7 +57,7 @@ body {
     position: absolute;
       top: 0;
       
-      color: #B68BFD;
+      color: rgb(236,150,89);
       font-size: 42px;
       line-height: 40px;
       
@@ -191,6 +191,7 @@ body {
     margin: 50px auto;
     width: 60%;
     font-size: 1.2rem;
+    /* margin: 200px; */
 }
 
 .controls-area {
@@ -390,7 +391,7 @@ span {
 }
 
 .btn--gray {
-    margin-top: 25px;
+    margin-top: 5px;
     background-color: #445361;
     border: 1px transparent;
     border-radius: 20px;

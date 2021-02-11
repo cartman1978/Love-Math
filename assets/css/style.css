@@ -232,6 +232,11 @@ body {
  
 }
 
+#img-anim {
+  width: 2rem;
+  height: 2rem;
+}
+
 
 #myImg.fade-in {
  
@@ -439,13 +444,20 @@ body {
 
     .content_conteiner {
        font-size: 20px;
-       width: 250px;
+       width: 270px;
        margin-top: 70px;
   }
 
   .content_conteiner::after, .content_conteiner::before {
       top: 40%;
   }
+
+  #img-anim {
+  width: 1rem;
+  height: 1rem;
+  
+}
+
 }
 
 @media (max-width: 320px) {

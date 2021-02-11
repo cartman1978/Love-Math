@@ -154,6 +154,9 @@ body {
 
 .game-area {
     background-color: #B68BFD;
+    background-image: url('../images/fortnite-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -208,6 +211,7 @@ body {
 .answer-message {
     display: none;
     font-size: 1rem;
+    color: #ffffff;
 }
 
 #answer-box {
@@ -217,6 +221,12 @@ body {
     height: 40px;
     width: 80px;
     font-size: 1.2rem;
+}
+
+span {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .scores {
@@ -237,7 +247,12 @@ body {
   height: 2rem;
 }
 
-#img-anim-2 {
+#img-anim-3 {
+  width: 3rem;
+  height: 2rem;
+}
+
+#img-anim-2, #img-anim-4 {
   width: 2rem;
   height: 2rem;
 }
@@ -324,7 +339,7 @@ body {
 .btn--big::after {
     content: attr(data-type);
     font-size: 1.2rem;
-    color: rgb(109, 96, 233);
+    color: #ffffff;
     position: relative;
     left: -0.5em;
     font-weight: bold;
@@ -419,6 +434,7 @@ body {
 
     .answer-message {
         display: block;
+        color: #ffffff;
     }
 
     #answer-box {
@@ -462,7 +478,7 @@ body {
   
 }
 
-#img-anim-2 {
+#img-anim-2,  #img-anim-3, #img-anim-4 {
   width: 1rem;
   height: 1rem;
 }

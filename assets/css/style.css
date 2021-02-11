@@ -452,6 +452,7 @@ span {
 
     .score-area {
         width: 100%;
+        margin: 140px auto;
     }
 
     .scores {
@@ -500,7 +501,6 @@ span {
     opacity: 1;
   font-size: 22px;
   top: -146px;
-  
   
 }
 

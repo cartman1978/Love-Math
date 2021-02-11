@@ -173,7 +173,7 @@ body {
 
 .btn--big::after {
     content: attr(data-type);
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(109, 96, 233);
     position: relative;
     left: -0.5em;

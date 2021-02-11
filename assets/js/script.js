@@ -111,6 +111,7 @@ function turnFortnite(x) {
     bgFortnite.style.backgroundRepeat = 'no-repeat';
     let numbers = document.getElementById('fortnite-bg');
     numbers.style.color = 'white';
+    numbers.style.fontWeight = 'bold';
     
 }
 

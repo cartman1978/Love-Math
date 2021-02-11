@@ -174,9 +174,10 @@ body {
 .btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
-    color: red;
+    color: rgb(109, 96, 233);
     position: relative;
     left: -0.5em;
+    font-weight: bold;
 }
 
 .btn--blue {

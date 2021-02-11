@@ -442,6 +442,10 @@ body {
        width: 250px;
        margin-top: 70px;
   }
+
+  .content_conteiner::after, .content_conteiner::before {
+      top: 40%;
+  }
 }
 
 @media (max-width: 320px) {

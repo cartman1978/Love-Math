@@ -31,6 +31,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -moz-border-radius-topleft: 30px;
+    -moz-border-radius-bottomright: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .question-area {

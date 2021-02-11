@@ -22,7 +22,7 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #B68BFD;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -37,11 +37,13 @@ body {
     -moz-border-radius-bottomright: 30px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.8); 
+    box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.8);   
 }
 
 .question-area {
     width: 50%;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: auto;
     padding: 50px 0;
 }

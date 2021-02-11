@@ -113,6 +113,7 @@ function turnFortnite(x) {
     let numbers = document.getElementById('fortnite-bg');
     numbers.style.color = 'white';
     numbers.style.fontWeight = 'bold';
+    numbers.style.fontSize = '55px';
     
 }
 

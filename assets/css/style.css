@@ -529,6 +529,14 @@ span {
         margin: 10px auto;
     }
 
+    .score-area {
+       margin: 280px auto;
+    }
+
+    .btn--gray {
+      margin-top: 10px;
+}
+
     .btn--big {
         margin: 10px 10px;
     }

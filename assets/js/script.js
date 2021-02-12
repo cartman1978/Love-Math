@@ -105,7 +105,7 @@ function moveWrong() {
   wrongMsg.classList.toggle('fade-in');
 }
 
-function turnFortnite(x) {
+function turnFortnite() {
     let bgFortnite = document.getElementById('fortnite-bg');
     bgFortnite.style.backgroundImage = `url(assets/images/bg-fortnite.jpg)`;
     bgFortnite.style.backgroundRepeat = 'no-repeat';

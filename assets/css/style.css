@@ -409,8 +409,10 @@ span {
 
 @media (max-width: 414px) {
     .controls-area {
-        width: 105%;
+        /* width: 105%; */
         margin-top: 5px;
+        width: 109%;
+        margin-left: -10px;
     }
 
     .btn--big {
@@ -452,7 +454,7 @@ span {
 
     .score-area {
         width: 100%;
-        margin: 140px auto;
+        margin: 160px auto;
     }
 
     .scores {

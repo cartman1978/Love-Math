@@ -416,7 +416,7 @@ span {
   
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1324px) {
     .content_conteiner {
        width: 500px;
    }
@@ -440,6 +440,10 @@ span {
     font-size: 2.2rem;
     margin: 5px 20px;
     
+}
+
+.btn--gray {
+    margin: 50px;
 }
 
 .controls-area {

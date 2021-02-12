@@ -1,10 +1,15 @@
 /* --------- Global style */
 
-body {
+
+
+ body {
     background-color: rgb(212, 184, 231);
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
+    max-width: 100%;
+    /* overflow-x: hidden;
+    overflow: hidden; */
 }
 
 /* --------- Heading */
@@ -413,9 +418,58 @@ span {
         margin-top: 200px;
     }
 
-    .contet {
+    .content {
         font-size: 30px;
+        width: 480px;
     }
+
+    .btn--big {
+    padding-top: 1px;
+    border-radius: 50%;
+    background-color: white;
+    border: 7px solid;
+    width: 70px;
+    height: 70px;
+    font-size: 2.2rem;
+    margin: 5px 20px;
+    
+}
+
+.controls-area {
+    width: 95%;
+}
+
+.btn--big::after {
+    font-size: 0.8rem;
+    left: -1.2em;
+    
+}
+
+.list__item {
+    margin-left: 180px;
+    }
+
+#message {
+    font-size: 22px;
+}
+#wrongmsg {
+    font-size: 22px;
+    top: -155px;
+}
+#otherImg {
+    width: 8rem;
+    top: -160px;
+    left: 10px;
+}
+
+.score-area {
+    margin: 140px auto;
+}
+
+.scores {
+    display: inline-block;
+    padding: 15px;
+}
 }
 
 @media (max-width: 414px) {
@@ -485,10 +539,17 @@ span {
        font-size: 20px;
        width: 280px;
        margin-top: 70px;
+       margin-left: 70px;
   }
 
-  .content_conteiner::after, .content_conteiner::before {
+  .content_conteiner::before {
       top: 40%;
+      left: 15%;
+  }
+
+  .content_conteiner::after {
+      top: 40%;
+      right: 20%;
   }
 
   #img-anim {

@@ -407,6 +407,17 @@ span {
 
 /* --------- Media queries */
 
+@media (max-width: 620px) {
+    .game-area {
+        width: 90%;
+        margin-top: 200px;
+    }
+
+    .contet {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 414px) {
     .controls-area {
         /* width: 105%; */
